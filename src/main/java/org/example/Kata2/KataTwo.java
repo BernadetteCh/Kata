@@ -13,7 +13,7 @@ public class KataTwo {
                         .map(String::toLowerCase)
                                 .distinct()
                                         .count()== word.length();*/
-        //2. Method return word.length() == word.toLowerCase().chars().distinct().count();
+        //3. Method return word.length() == word.toLowerCase().chars().distinct().count();
 
 
     }
