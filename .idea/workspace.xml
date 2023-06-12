@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="008968fb-8dd9-46d4-96ce-10874fb42840" name="Changes" comment="Finish Kata">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata3/KataThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Kata3/KataThreeTest.java" afterDir="false" />
+    <list default="true" id="008968fb-8dd9-46d4-96ce-10874fb42840" name="Changes" comment="No relevant changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata4/KataFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Kata4/KataFourTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Kata2/KataTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata2/KataTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,32 +42,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "/home/bernadette/CodeCool-projects/Modul4/Kata",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/bernadette/CodeCool-projects/Modul4/Kata&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.Kata4" />
       <recent name="org.example.Kata3" />
       <recent name="org.example.Kata2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataThreeTest.sumOfSequence">
+  <component name="RunManager" selected="JUnit.KataFourTest.scramble">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="CodeKatas" />
@@ -82,17 +82,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataOneTest.makeNumberNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataFourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeKatas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Kata1.*" />
+          <option name="PATTERN" value="org.example.Kata4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Kata1" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Kata1.KataOneTest" />
-      <option name="METHOD_NAME" value="makeNumberNegative(int,int)" />
+      <option name="PACKAGE_NAME" value="org.example.Kata4" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Kata4.KataFourTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KataFourTest.scramble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeKatas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Kata4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Kata4" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Kata4.KataFourTest" />
+      <option name="METHOD_NAME" value="scramble(java.lang.String,java.lang.String,boolean)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,28 +144,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeKatas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Kata2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.Kata2" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Kata2.KataTwoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataFourTest.scramble" />
+        <item itemvalue="JUnit.KataFourTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.KataThreeTest.sumOfSequence" />
         <item itemvalue="JUnit.KataThreeTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.KataTwoTest" />
-        <item itemvalue="JUnit.KataOneTest.makeNumberNegative" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +164,8 @@
       <updated>1682926407789</updated>
       <workItem from="1682926409299" duration="724000" />
       <workItem from="1684165516879" duration="302000" />
-      <workItem from="1685435580766" duration="4045000" />
+      <workItem from="1685435580766" duration="4220000" />
+      <workItem from="1686560004834" duration="2245000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1682926965888</created>
@@ -180,7 +181,42 @@
       <option name="project" value="LOCAL" />
       <updated>1684165634601</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finish KataThree">
+      <created>1685441505039</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685441505039</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Create test">
+      <created>1685441547172</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685441547172</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Finish KataTwo">
+      <created>1685441554195</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685441554195</updated>
+    </task>
+    <task id="LOCAL-00006" summary="No relevant changes">
+      <created>1685441570210</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685441570210</updated>
+    </task>
+    <task id="LOCAL-00007" summary="No relevant changes">
+      <created>1685441609382</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685441609382</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,14 +225,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Finish Kata" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Kata" />
+    <MESSAGE value="Finish KataThree" />
+    <MESSAGE value="Create test" />
+    <MESSAGE value="Finish KataTwo" />
+    <MESSAGE value="No relevant changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="No relevant changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/org/example/Kata3/KataThreeTest.java</url>
-          <line>23</line>
+          <line>18</line>
           <properties class="org.example.Kata3.KataThreeTest" method="sumOfSequence">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
