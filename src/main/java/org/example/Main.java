@@ -1,15 +1,10 @@
 package org.example;
-
-import org.example.Kata3.KataThree;
-import org.example.Kata4.KataFour;
+import org.example.Kata5.KataFive;
 
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello World");
-        KataFour kataFour = new KataFour();
-        System.out.println(kataFour.scramble("berni", "inreb"));
-
-
+        KataFive kataFive = new KataFive();
+        kataFive.collatz(4);
     }
 }
