@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="008968fb-8dd9-46d4-96ce-10874fb42840" name="Changes" comment="Finish kata">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata5/KataFive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Kata5/KataFiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/kata7/kata1/Kata1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/kata7/kata1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/kata7/kata2/Kata2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/kata7/kata1/Kata1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/kata7/kata2/Kata2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
@@ -55,58 +60,79 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/bernadette/CodeCool-projects/Modul4/Kata&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/home/bernadette/CodeCool-projects/Modul4/Kata",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.kata7.kata2" />
+      <recent name="org.example.kata7.kata1" />
       <recent name="org.example.Kata5" />
       <recent name="org.example.Kata4" />
       <recent name="org.example.Kata3" />
-      <recent name="org.example.Kata2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataFiveTest.collatz (1)">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+  <component name="RunManager" selected="JUnit.Kata2Test">
+    <configuration name="Kata1Test.checkStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeKatas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.kata7.kata1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.kata7.kata1" />
+      <option name="MAIN_CLASS_NAME" value="org.example.kata7.kata1.Kata1Test" />
+      <option name="METHOD_NAME" value="checkStudent(java.lang.String,java.lang.String,boolean)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataFiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Kata2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeKatas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Kata5.*" />
+          <option name="PATTERN" value="org.example.kata7.kata2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Kata5" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Kata5.KataFiveTest" />
+      <option name="PACKAGE_NAME" value="org.example.kata7.kata2" />
+      <option name="MAIN_CLASS_NAME" value="org.example.kata7.kata2.Kata2Test" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kata2Test.countVowel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeKatas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.kata7.kata2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.kata7.kata2" />
+      <option name="MAIN_CLASS_NAME" value="org.example.kata7.kata2.Kata2Test" />
+      <option name="METHOD_NAME" value="countVowel(java.lang.String,int)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,29 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataOneTest.makeNumberNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeKatas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Kata1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.Kata1" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Kata1.KataOneTest" />
-      <option name="METHOD_NAME" value="makeNumberNegative(int,int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Kata2Test" />
+        <item itemvalue="JUnit.Kata2Test.countVowel" />
+        <item itemvalue="JUnit.Kata1Test.checkStudent" />
         <item itemvalue="JUnit.KataFiveTest.collatz (1)" />
         <item itemvalue="JUnit.KataOneTest" />
-        <item itemvalue="JUnit.KataOneTest.makeNumberNegative" />
-        <item itemvalue="JUnit.KataFiveTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +190,9 @@
       <workItem from="1684165516879" duration="302000" />
       <workItem from="1685435580766" duration="4220000" />
       <workItem from="1686560004834" duration="3424000" />
-      <workItem from="1687769466717" duration="3875000" />
+      <workItem from="1687769466717" duration="4359000" />
+      <workItem from="1687876593766" duration="4000" />
+      <workItem from="1688147467692" duration="5707000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1682926965888</created>
@@ -238,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686564223500</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Finish kata">
+      <created>1687773616720</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687773616720</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
