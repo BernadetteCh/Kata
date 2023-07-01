@@ -1,4 +1,4 @@
-package org.example.kata7.kata1;
+package org.example.kyu7.kata1;
 import java.util.function.Function;
 
 public class Kata1 {

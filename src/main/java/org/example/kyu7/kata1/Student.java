@@ -1,4 +1,4 @@
-package org.example.kata7.kata1;
+package org.example.kyu7.kata1;
 
 public class Student {
     private final String name;

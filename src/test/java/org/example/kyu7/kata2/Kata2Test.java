@@ -1,4 +1,4 @@
-package org.example.kata7.kata2;
+package org.example.kyu7.kata2;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;

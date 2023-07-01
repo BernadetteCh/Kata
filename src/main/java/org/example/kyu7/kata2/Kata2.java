@@ -1,7 +1,4 @@
-package org.example.kata7.kata2;
-
-import java.util.stream.IntStream;
-import java.util.stream.LongStream;
+package org.example.kyu7.kata2;
 
 public class Kata2 {
 
